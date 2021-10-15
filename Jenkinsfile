@@ -9,7 +9,7 @@ pipeline {
       stage('checkout') {
            steps {
 
-                git branch: 'master', url: 'https://github.com/ravinder-sin/firstGittest.git'
+                git branch: 'master', url: 'https://github.com/ravinder-sin/Test-Maven.git'
 
           }
         }
